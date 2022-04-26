@@ -6,7 +6,7 @@ const Presenter = ({ bio_pic, name, title, twitter_handle }) => {
       <img
         src={bio_pic}
         alt="search hero"
-        className="mx-6 w-36 h-48 rounded-full"
+        className="mx-6 w-48 h-48 rounded-full"
       />
       <div className="flex flex-col pt-12">
         <div className="mt-6">
