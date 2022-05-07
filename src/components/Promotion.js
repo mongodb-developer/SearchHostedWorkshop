@@ -9,8 +9,13 @@ const Promotion = () => {
       >
         MongoDB World 2022
       </a>
+      <div className="text-forestgreen">The Future Runs on MongoDB</div>
+
       <br></br>
-      <div className="text-xl m-2"> June 7-9 in New York 🗽</div>
+      <div className="text-xl m-2"> June 7-9 in New York</div>
+      <a href="https://www.mongodb.com/world-2022" className="text-6xl m-2">
+        🗽
+      </a>
       <div className="text-forestgreen">Discount Code: KarenHuaulme25</div>
       {/* <img
         src={QRCode}

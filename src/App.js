@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Instructions from "./components/Instructions";
 import Promotion from "./components/Promotion";
+import Sponsors from "./components/Sponsors";
 import AppPreview from "./components/AppPreview";
 import Presenters from "./components/Presenters";
 
@@ -22,6 +23,7 @@ function App() {
           </div>
         </div>
         <div className="w-1/4">
+          <Sponsors />
           <Promotion />
         </div>
       </div>

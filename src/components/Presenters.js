@@ -1,16 +1,16 @@
 import Presenter from "./Presenter";
 import Karen from "../images/KWH14.png";
-import Idriss from "../images/Idriss.jpeg";
-import Snehal from "../images/Snehal.jpeg";
+import Chai from "../images/Chai.jpeg";
+import Rick from "../images/Rick.png";
 
 const Presenters = () => {
   return (
     <div className="flex w-full justify-evenly items-center text-black px-20">
       <Presenter
-        bio_pic={Idriss}
-        name="Idriss Ouazzani"
+        bio_pic={Chai}
+        name="Chaitanya Varanasi"
         title="Senior Solutions Architect"
-        twitter_handle="@OuazzaniIdriss"
+        twitter_handle="@tryChai"
       />
       <Presenter
         bio_pic={Karen}
@@ -19,10 +19,10 @@ const Presenters = () => {
         twitter_handle="@YouOldMaid"
       />
       <Presenter
-        bio_pic={Snehal}
-        name="Snehal Bhatia"
-        title="Solutions Architect"
-        twitter_handle="@SnehalBhatia8"
+        bio_pic={Rick}
+        name="Rick Houlihan"
+        title="Director, Developer Relations"
+        twitter_handle="@houlihan_rick"
       />
     </div>
   );

@@ -106,7 +106,7 @@ const AdditionalResources = () => {
       </div>
       <div className="flex mt-10 justify-around ">
         <iframe
-          width="560"
+          width="450"
           height="315"
           src="https://www.youtube.com/embed/s2kXYZRE7pA"
           title="YouTube video player"
@@ -117,13 +117,23 @@ const AdditionalResources = () => {
         ></iframe>
         <iframe
           className="border-2 border-springgreen"
-          width="560"
+          width="450"
           height="315"
           src="https://www.youtube.com/embed/jnxnhbTO2RA"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
+        ></iframe>
+        <iframe
+          width="450"
+          height="315"
+          src="https://www.youtube.com/embed/o2ss2LJNZVE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          className="border-2 border-springgreen"
         ></iframe>
       </div>
       <div className="flex w-3/4 mx-auto text-center items-center">
